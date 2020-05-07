@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Test parcel bundler</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div data-controller="hello">
     <form action="" data-action="submit->hello#greet">
       <input data-target="hello.name" type="text">
+      <input data-controller="flatpickr" type="text">
 
       <button data-action="click->hello#greet">
         Greet
