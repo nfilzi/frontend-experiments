@@ -5,6 +5,9 @@
   "author": "Nicolas Filzi",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "parcel build index.html"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
