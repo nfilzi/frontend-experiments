@@ -1,0 +1,20 @@
+{
+  "name": "Parcel x Stimulus.js Hello World example",
+  "version": "0.0.1",
+  "description": "A very minimalist stimulus x parcel template, to put in action stimulus.js homepage example",
+  "main": "index.js",
+  "author": "Nicolas Filzi",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "stimulus": "^1.1.1"
+  }
+}
